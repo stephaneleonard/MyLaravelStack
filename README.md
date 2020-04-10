@@ -2,7 +2,7 @@
 a Docker Stack for Laravel with apache
 
 # How to use
-- create or import your laravel project into the www folder and delete the dummy index.php.
+- create (composer create-project --prefer-dist laravel/laravel my-app) or import your laravel project into the www folder and delete the dummy index.php.
 - just run docker-compose up (-d to run it in background).
 - if Laravel throw a unable to read error, run "chmod -R 777 /var/www/html/the_name_of_your_app/storage".
 
